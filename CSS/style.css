@@ -1,0 +1,251 @@
+body{
+    margin: 0 auto;
+    background-color: gainsboro;
+}
+.container{
+    width: 1000px;
+    height: auto;
+    background-color: white;
+    margin: auto;
+}
+.logo img{
+    width: 125px;
+    height: 40px;
+}
+.logo{
+    float: left;
+    padding: 15px;
+}
+.search{
+    float: right;
+    padding: 15px;
+}
+.clearfix{
+    clear: both;
+}
+.head{
+    background-color: #131921;
+}
+.main-menu{
+    background-color: #232f3e;
+}
+.main-menu > ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.main-menu > ul > li{
+    display: inline-block;
+}
+.main-menu > ul > li > a{
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    font-family: sans-serif;
+    font-size: small;
+}
+.main-menu > ul > li > a:hover{
+    background-color: #101317;
+    border: 2px solid;
+    border-color: white;
+    border-radius: 5px;
+}
+/* .drop-service */
+.drop-service{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    display: none;
+}
+.drop-service > li > a{
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    font-family: sans-serif;
+    font-size: small;
+    background-color: #727a83;
+}
+.drop-service > li > a:hover{
+    background-color: #101317;
+    border: 2px solid;
+    border-color: white;
+    border-radius: 5px;
+}
+.main-menu > ul > li:hover .drop-service{
+    display: block;
+}
+
+/* Image Slideshow */
+.mySlides {display: none;}
+img {
+    vertical-align: middle; 
+    height: 500px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+.content-holder{
+    background-color: #969898;
+}
+.content{
+    width: 700px;
+    height: auto;
+    padding: 25px;
+    background-color: white;
+    float: left;
+}
+.content h1{
+    font-size: 1.5em;
+    font-family: sans-serif;
+}
+.content p{
+    font-size: small;
+    font-family: sans-serif;
+}
+/* sidebar */
+.sidebar{
+    float: left;
+    padding: 25px;
+}
+.sidebar h3{
+    font-size: 1.5em;
+    font-family: sans-serif;
+    color: #131a22;
+}
+.sidebar ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.sidebar ul > li >  a{
+    display: block;
+    padding: 5px;
+    color: #131a22;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-style: italic;
+}
+.sidebar ul > li >  a:hover{
+    text-decoration: underline;
+}
+.main-footer{
+    background-color: #232f3e;
+    color: white;
+    width: 950px;
+    padding: 25px;
+}
+.footer-box{
+    width: 237.5px;
+    height: auto;
+    float: left;
+    font-family: sans-serif;
+}
+.footer-box h3{
+    font-size: 1.5em;
+}
+.footer-box ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.footer-box ul > li > a{
+    display: block;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: small;
+}
+.footer-box ul > li > a:hover{
+    background-color: #131a22;
+    border: 2px solid;
+    border-radius: 2px;
+}
+address p{
+    font-size: small;
+    font-style: italic;
+}
+address p > a{
+    color: teal;
+    text-decoration: none;
+}
+.copy{
+    font-family: sans-serif;
+    padding: 25px;
+    text-align: center;
+    background-color: #131a22;
+    color: white; 
+}
+.copy p{
+    margin: 0px;
+}
+/* Page */
+.content img{
+    max-width: 100%;
+}
+/* Product Page */
+.product{
+    max-width: 211.33px;
+    height: 340px;
+    float: left;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+.product img{
+    width: 232px;
+    height: 227px;
+}
+.product-caption p{
+    font-weight: bold;
+}
+.product-caption p > del{
+    color: red;
+}
+.product-caption p > ins{
+    color: green;
+}
+.product-caption a{
+    display: block;
+    background-color: #ffa41c;
+    padding: 8px;
+    border-radius: 15px;
+    border-color: #ffa41c;
+    font-size: small;
+    font-family: sans-serif;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.product-caption a:hover{
+    background-color: #db8f1d;
+    border-color: #db8f1d;
+} 
+.banner{
+    width: 1000px;
+    height: 500px;
+    overflow: hidden;
+}
+.banner iframe{
+    width: 1000px;
+    height: 500px;
+}
